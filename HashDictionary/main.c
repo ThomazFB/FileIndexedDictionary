@@ -1,15 +1,15 @@
-//
-//  main.c
-//  HashDictionary
-//
-//  Created by Thomaz Freitas Barbosa Cortez on 10/19/14.
-//  Copyright (c) 2014 Thomaz F B. All rights reserved.
-//
-
 #include <stdio.h>
+#include <stdlib.h>
+#include "wordFinder.h"
+#include "file.h"
+#include "typeDefinition.h"
+#include "wordTreeConstruction.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    FILE * dictionary = getDictionaryReference();
+    //startIndexGenerator(dictionary);
+    char * line = findWordByPosition(dictionary, 33000);
+    puts(line);
     return 0;
 }

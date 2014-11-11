@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60AA0921A0ED00B000BCC64 /* wordFinder.c in Sources */ = {isa = PBXBuildFile; fileRef = B60AA0911A0ED00B000BCC64 /* wordFinder.c */; };
+		B60AA0941A0ED028000BCC64 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = B60AA0931A0ED028000BCC64 /* file.c */; };
+		B60AA09F1A0ED20E000BCC64 /* wordTreeConstruction.c in Sources */ = {isa = PBXBuildFile; fileRef = B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */; };
+		B661B8981A1037C500484940 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = B661B8961A1037C500484940 /* Queue.c */; };
 		B6AA7AD119F4207C00202A7E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B6AA7AD019F4207C00202A7E /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B60AA0911A0ED00B000BCC64 /* wordFinder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordFinder.c; sourceTree = "<group>"; };
+		B60AA0931A0ED028000BCC64 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		B60AA0981A0ED07C000BCC64 /* wordFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordFinder.h; sourceTree = "<group>"; };
+		B60AA0991A0ED081000BCC64 /* file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		B60AA09A1A0ED175000BCC64 /* typeDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = typeDefinition.h; sourceTree = "<group>"; };
+		B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordTreeConstruction.c; sourceTree = "<group>"; };
+		B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordTreeConstruction.h; sourceTree = "<group>"; };
+		B661B8961A1037C500484940 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		B661B8971A1037C500484940 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		B6AA7ACD19F4207C00202A7E /* HashDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AA7AD019F4207C00202A7E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +51,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60AA0961A0ED05D000BCC64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B661B8961A1037C500484940 /* Queue.c */,
+				B60AA0931A0ED028000BCC64 /* file.c */,
+				B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */,
+				B60AA0911A0ED00B000BCC64 /* wordFinder.c */,
+				B6AA7AD019F4207C00202A7E /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		B60AA0971A0ED06E000BCC64 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B661B8971A1037C500484940 /* Queue.h */,
+				B60AA09A1A0ED175000BCC64 /* typeDefinition.h */,
+				B60AA0991A0ED081000BCC64 /* file.h */,
+				B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */,
+				B60AA0981A0ED07C000BCC64 /* wordFinder.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 		B6AA7AC419F4207B00202A7E = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +94,8 @@
 		B6AA7ACF19F4207C00202A7E /* HashDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				B6AA7AD019F4207C00202A7E /* main.c */,
+				B60AA0971A0ED06E000BCC64 /* Header */,
+				B60AA0961A0ED05D000BCC64 /* Source */,
 			);
 			path = HashDictionary;
 			sourceTree = "<group>";
@@ -118,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60AA09F1A0ED20E000BCC64 /* wordTreeConstruction.c in Sources */,
 				B6AA7AD119F4207C00202A7E /* main.c in Sources */,
+				B661B8981A1037C500484940 /* Queue.c in Sources */,
+				B60AA0921A0ED00B000BCC64 /* wordFinder.c in Sources */,
+				B60AA0941A0ED028000BCC64 /* file.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +244,7 @@
 		B6AA7AD519F4207C00202A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +252,7 @@
 		B6AA7AD619F4207C00202A7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +276,7 @@
 				B6AA7AD619F4207C00202A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
