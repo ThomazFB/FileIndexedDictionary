@@ -8,8 +8,6 @@
 int main()
 {
     FILE * dictionary = getDictionaryReference();
-    //startIndexGenerator(dictionary);
-    char * line = findWordByPosition(dictionary, 33000);
-    puts(line);
+    startIndexGenerator(dictionary);
     return 0;
 }

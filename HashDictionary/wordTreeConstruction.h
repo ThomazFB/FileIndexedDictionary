@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "typeDefinition.h"
-#include "Queue.h"
+#include "queue.h"
 #include "wordFinder.h"
 #include "file.h"
 

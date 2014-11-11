@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Thomaz F B. All rights reserved.
 //
 
-#include "Queue.h"
+#include "queue.h"
 #define TRUE 1
 #define FALSE 0
 
