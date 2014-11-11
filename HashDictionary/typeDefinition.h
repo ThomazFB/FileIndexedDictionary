@@ -9,17 +9,24 @@
 #ifndef HashDictionary_typeDefinition_h
 #define HashDictionary_typeDefinition_h
 
+typedef enum boolean
+{
+    TRUE,
+    FALSE
+}bool;
 
 typedef struct childInfo
 {
     char letter;
     char position;
+    struct wordIndex * node;
 }ChildInfo;
 
 typedef struct wordIndex
 {
     char letter;
     char wordPosition;
+    char filePosition;
     char numberOfChilds;
     ChildInfo * childs;
 }WordIndex;
@@ -27,6 +34,7 @@ typedef struct wordIndex
 typedef struct dictionary
 {
     WordIndex * trees;
+    char * fileTrees;
 }Dictionary;
 
 #endif

@@ -174,6 +174,51 @@ int fourthLayerIteration(FILE * dictionary)
     return wordAmount;
 }
 
+void getFirstWord(char * line, char * buffer)
+{
+    
+}
+
+bool doesWordExist(char * buffer)
+{
+    return TRUE;
+}
+
+Dictionary * createTree(FILE * dictionary)
+{
+    //Leio cada palavra, e verifico suas 4 primeiras letras
+    //chamo um método que verifica se tal combinação na arvore
+    //Se sim, insere
+    //Se nao, ignora
+    Dictionary * tree = (Dictionary *) malloc(sizeof(<#expression-or-type#>))
+    char * line = (char *) malloc(sizeof(char) * 1300);
+    char * buffer = (char *) malloc(sizeof(char) * 5);
+    setFileRegisterToStartPoint(dictionary);
+    while (!feof(dictionary))
+    {
+        fgets(line, 1300, dictionary);
+        getFirstWord(line, buffer);
+        if(doesWordExist(buffer,) == FALSE)
+        {
+            //adiciona
+            addWord();
+        }
+    }
+    return NULL;
+}
+
+/*
+ //GUARDANDO NO ARQUIVO
+ 
+ 
+
+ int posicao no dicionario = 1
+ int numero de filhos  = 2
+ int posicao = 25
+ int posicao = 30
+
+ */
+
 void startIndexGenerator(FILE * dictionary)
 {
     int wordAmount = 0;
