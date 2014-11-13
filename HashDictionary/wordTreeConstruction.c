@@ -43,10 +43,13 @@ int layerTwoWordCounter(FILE * dictionary, char firstLayerWord)
     char referenceWord = 97;
     char * actualLine = (char *) malloc(sizeof(char) * 1300);
     int wordCounter = 0;
+    char * word;
     setFileRegisterToStartPoint(dictionary);
     while (!feof(dictionary) && referenceWord < letterAfterZ)
     {
         fgets(actualLine, 1300, dictionary);
+        word = removeWordFromLine(actualLine);
+        puts(word);
         if(actualLine[0] == firstLayerWord && referenceWord == actualLine[1])
         {
             wordCounter++;
@@ -62,9 +65,12 @@ int layerThreeWordCounter(FILE * dictionary, char firstLayerWord, char secondLay
     char referenceWord = 97;
     char * actualLine = (char *) malloc(sizeof(char) * 1300);
     int wordCounter = 0;
+    char * word;
     setFileRegisterToStartPoint(dictionary);
     while (!feof(dictionary) && referenceWord < letterAfterZ)
     {
+        word = removeWordFromLine(actualLine);
+        puts(word);
         fgets(actualLine, 1300, dictionary);
         if(actualLine[0] == firstLayerWord && actualLine[1] == secondLayerWord && referenceWord == actualLine[2])
         {
@@ -81,9 +87,12 @@ int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLaye
     char referenceWord = 97;
     char * actualLine = (char *) malloc(sizeof(char) * 1300);
     int wordCounter = 0;
+    char * word;
     setFileRegisterToStartPoint(dictionary);
     while (!feof(dictionary) && referenceWord < letterAfterZ)
     {
+        word = removeWordFromLine(actualLine);
+        puts(word);
         fgets(actualLine, 1300, dictionary);
         if(actualLine[0] == firstLayerWord && actualLine[1] == secondLayerWord && actualLine[2] == thirdLayerWord && referenceWord == actualLine[3])
         {
@@ -94,33 +103,6 @@ int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLaye
     }
     
     return wordCounter;
-}
-
-int getWordAmount(FILE * dictionary, int layer, char * actualWord)
-{
-    switch (layer)
-    {
-        case 1:
-            //return layerOneWordCounter(dictionary);
-            
-        case 2:
-            return layerTwoWordCounter(dictionary, actualWord[0]);
-            
-        case 3:
-            return layerThreeWordCounter(dictionary, actualWord[0], actualWord[1]);
-            
-        case 4:
-            return layerFourWordCounter(dictionary, actualWord[0], actualWord[1], actualWord[2]);
-            
-        default:
-            return -1;
-    }
-}
-
-int createRelativeChilds(FILE * dictionary, int layer, char * referenceLetters)
-{
-    int wordAmount = getWordAmount(dictionary,layer,referenceLetters);
-    return wordAmount;
 }
 
 int secondLayerIteration(FILE * dictionary)
@@ -184,7 +166,7 @@ bool doesWordExist(char * buffer)
     return TRUE;
 }
 
-Dictionary * createTree(FILE * dictionary)
+/*Dictionary * createTree(FILE * dictionary)
 {
     //Leio cada palavra, e verifico suas 4 primeiras letras
     //chamo um método que verifica se tal combinação na arvore
@@ -198,26 +180,10 @@ Dictionary * createTree(FILE * dictionary)
     {
         fgets(line, 1300, dictionary);
         getFirstWord(line, buffer);
-        if(doesWordExist(buffer,) == FALSE)
-        {
-            //adiciona
-            addWord();
-        }
+        addWord(line);
     }
     return NULL;
-}
-
-/*
- //GUARDANDO NO ARQUIVO
- 
- 
-
- int posicao no dicionario = 1
- int numero de filhos  = 2
- int posicao = 25
- int posicao = 30
-
- */
+}*/
 
 void startIndexGenerator(FILE * dictionary)
 {

@@ -13,8 +13,12 @@ char * removeWordFromLine(char * wordLine)
     char * word;
     int wordSize = 1;
     int cont = 0;
-    while (wordLine[cont] != '@')
+    while (wordLine[cont] != '@' && wordLine[cont] != '\n')
     {
+        if(cont > 1300)
+        {
+            puts(wordLine);
+        }
         wordSize++;
         cont++;
     }
