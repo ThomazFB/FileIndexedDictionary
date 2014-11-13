@@ -33,7 +33,7 @@ typedef struct wordIndex
 
 typedef struct dictionary
 {
-    WordIndex * trees;
+    WordIndex * tree;
     WordIndex * currentPosition;
     char * fileTrees;
 }Dictionary;

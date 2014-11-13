@@ -192,6 +192,21 @@ void addNode(Dictionary * dictionary, char positionInFile, char index)
     dictionary->currentPosition = child;
 }
 
+
+
+void startTree(Dictionary * dictionary)
+{
+    WordIndex * newStart = (WordIndex *) malloc(sizeof(WordIndex));
+    newStart->letter = '@';
+    dictionary->tree = newStart;
+    dictionary->currentPosition = newStart;
+}
+
+void refreshTree(Dictionary * dictionary)
+{
+    dictionary->currentPosition = dictionary->tree;
+}
+
 /*Dictionary * createTree(FILE * dictionary)
 {
     //Leio cada palavra, e verifico suas 4 primeiras letras
