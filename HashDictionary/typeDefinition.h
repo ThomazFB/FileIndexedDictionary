@@ -28,12 +28,13 @@ typedef struct wordIndex
     char wordPosition;
     char filePosition;
     char numberOfChilds;
-    ChildInfo * childs;
+    ChildInfo childs[26];
 }WordIndex;
 
 typedef struct dictionary
 {
     WordIndex * trees;
+    WordIndex * currentPosition;
     char * fileTrees;
 }Dictionary;
 

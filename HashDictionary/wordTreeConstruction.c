@@ -166,6 +166,32 @@ bool doesWordExist(char * buffer)
     return TRUE;
 }
 
+WordIndex * isThereChildWithletter(WordIndex * node, char letter)
+{
+    for(int i = 0; i < node->numberOfChilds; i++)
+    {
+        if(node->childs[i].letter == letter)
+        {
+            return node->childs[i].node;
+        }
+    }
+    return NULL;
+}
+
+void addNode(Dictionary * dictionary, char positionInFile, char index)
+{
+    WordIndex * child;
+    child = isThereChildWithLetter(dictionary->currentPosition,index); //se existe filho, retorna o endereço, se não, retorna nulo
+    if(child == NULL)
+    {
+        child = (WordIndex *) malloc(sizeof(WordIndex));
+        child->letter = index;
+        child->wordPosition = positionInFile;
+        child->numberOfChilds = 0;
+    }
+    dictionary->currentPosition = child;
+}
+
 /*Dictionary * createTree(FILE * dictionary)
 {
     //Leio cada palavra, e verifico suas 4 primeiras letras
