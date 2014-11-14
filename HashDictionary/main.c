@@ -8,6 +8,5 @@
 int main()
 {
     FILE * dictionary = getDictionaryReference();
-    startIndexGenerator(dictionary);
     return 0;
 }

@@ -17,18 +17,14 @@
 #include "wordFinder.h"
 #include "file.h"
 
-Queue layerOneWordCounter(FILE * dictionary);
+void getFirstWord(char * line, char * buffer);
 
-int layerTwoWordCounter(FILE * dictionary, char firstLayerWord);
+WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
-int layerThreeWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord);
+void addNode(Dictionary * dictionary, char positionInFile, char index);
 
-int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord, char thirdLayerWord);
+void startTree(Dictionary * dictionary);
 
-int getWordAmount(FILE * dictionary, int layer, char * actualWord);
-
-int createRelativeChilds(FILE * dictionary, int layer, char * referenceLetters);
-
-void startIndexGenerator(FILE * dictionary);
+void refreshTree(Dictionary * dictionary);
 
 #endif /* defined(__HashDictionary__wordTreeConstruction__) */
