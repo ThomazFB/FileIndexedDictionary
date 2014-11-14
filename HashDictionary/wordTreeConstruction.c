@@ -105,35 +105,6 @@ int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLaye
     return wordCounter;
 }
 
-int secondLayerIteration(FILE * dictionary)
-{
-    char referenceLetter = 97;
-    int wordAmount = 0;
-    while (referenceLetter < letterAfterZ)
-    {
-        wordAmount = wordAmount + layerTwoWordCounter(dictionary, referenceLetter);
-        referenceLetter++;
-    }
-    return wordAmount;
-}
-
-int thirdLayerIteration(FILE * dictionary)
-{
-    char referenceLetters[2] = {97,97};
-    int wordAmount = 0;
-    while (referenceLetters[0] < letterAfterZ)
-    {
-        referenceLetters[1] = 97;
-        while (referenceLetters[1] < letterAfterZ)
-        {
-            wordAmount = wordAmount + layerThreeWordCounter(dictionary, referenceLetters[0], referenceLetters[1]);
-            referenceLetters[1]++;
-        }
-        referenceLetters[0]++;
-    }
-    return wordAmount;
-}
-
 int fourthLayerIteration(FILE * dictionary)
 {
     char referenceLetters[3] = {97,97,97};
@@ -159,11 +130,6 @@ int fourthLayerIteration(FILE * dictionary)
 void getFirstWord(char * line, char * buffer)
 {
     
-}
-
-bool doesWordExist(char * buffer)
-{
-    return TRUE;
 }
 
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
