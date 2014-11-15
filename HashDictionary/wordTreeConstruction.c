@@ -8,11 +8,6 @@
 
 #include "wordTreeConstruction.h"
 
-
-void getFirstWord(char * line, char * buffer)
-{
-}
-
 //ChaosKeeper Tree implementation
 
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
@@ -72,7 +67,6 @@ void startTree(Dictionary * dictionary)
     newStart->numberOfChilds = 0;
     dictionary->tree = newStart;
     dictionary->currentPosition = newStart;
-
 }
 
 void refreshTree(Dictionary * dictionary)

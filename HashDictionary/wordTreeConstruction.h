@@ -17,8 +17,6 @@
 #include "wordFinder.h"
 #include "file.h"
 
-void getFirstWord(char * line, char * buffer);
-
 WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
 void addNode(Dictionary * dictionary, int positionInFile, char index);
