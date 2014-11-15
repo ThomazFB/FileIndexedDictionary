@@ -40,15 +40,18 @@ void addNode(Dictionary * dictionary, char positionInFile, char index)
         newChild.letter = index;
         newChild.position = positionInFile;
         newChild.node = word;
-        dictionary->currentPosition->childs[numberOfChilds].node = word;
+        dictionary->currentPosition->childs[numberOfChilds] = newChild;
+        //dictionary->currentPosition->childs[numberOfChilds].node = word;
+        dictionary->currentPosition->numberOfChilds++;
     }
     dictionary->currentPosition = word;
 }
 
 void startDictionaryReading(Dictionary * dic, FILE * dictionary)
 {
-    char * actualLine;
+    char actualLine[1300];
     startTree(dic);
+    setFileRegisterToStartPoint(dictionary);
     for(int countLine = 0; !feof(dictionary); countLine++)
     {
         fgets(actualLine,1300,dictionary);
@@ -58,6 +61,7 @@ void startDictionaryReading(Dictionary * dic, FILE * dictionary)
         }
         refreshTree(dic);
     }
+    printf("HUE");
 }
 
 void startTree(Dictionary * dictionary)
@@ -74,22 +78,3 @@ void refreshTree(Dictionary * dictionary)
 {
     dictionary->currentPosition = dictionary->tree;
 }
-
-/*Dictionary * createTree(FILE * dictionary)
-{
-    //Leio cada palavra, e verifico suas 4 primeiras letras
-    //chamo um método que verifica se tal combinação na arvore
-    //Se sim, insere
-    //Se nao, ignora
-    Dictionary * tree = (Dictionary *) malloc(sizeof(<#expression-or-type#>))
-    char * line = (char *) malloc(sizeof(char) * 1300);
-    char * buffer = (char *) malloc(sizeof(char) * 5);
-    setFileRegisterToStartPoint(dictionary);
-    while (!feof(dictionary))
-    {
-        fgets(line, 1300, dictionary);
-        getFirstWord(line, buffer);
-        addWord(line);
-    }
-    return NULL;
-}*/

@@ -18,16 +18,16 @@ typedef enum boolean
 typedef struct childInfo
 {
     char letter;
-    char position;
+    int position;
     struct wordIndex * node;
 }ChildInfo;
 
 typedef struct wordIndex
 {
     char letter;
-    char wordPosition;
-    char filePosition;
-    char numberOfChilds;
+    int wordPosition;
+    int filePosition;
+    int numberOfChilds;
     ChildInfo childs[26];
 }WordIndex;
 

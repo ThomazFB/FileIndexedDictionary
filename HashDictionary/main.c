@@ -8,5 +8,7 @@
 int main()
 {
     FILE * dictionary = getDictionaryReference();
+    Dictionary * mainTreeDescriptor = (Dictionary *) malloc(sizeof(Dictionary));
+    startDictionaryReading(mainTreeDescriptor, dictionary);
     return 0;
 }
