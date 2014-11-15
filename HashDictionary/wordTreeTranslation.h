@@ -13,5 +13,8 @@
 #include "file.h"
 #include "typeDefinition.h"
 #include <stdio.h>
+#include <stdlib.h>
+
+void startTranslation(Dictionary * dictionary, FILE * indexedDictionary);
 
 #endif /* defined(__HashDictionary__wordTreeTranslation__) */

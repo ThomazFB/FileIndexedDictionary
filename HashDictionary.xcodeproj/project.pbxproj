@@ -11,6 +11,7 @@
 		B60AA0941A0ED028000BCC64 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = B60AA0931A0ED028000BCC64 /* file.c */; };
 		B60AA09F1A0ED20E000BCC64 /* wordTreeConstruction.c in Sources */ = {isa = PBXBuildFile; fileRef = B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */; };
 		B690A5551A17F61B001A3383 /* wordTreeTranslation.c in Sources */ = {isa = PBXBuildFile; fileRef = B690A5531A17F61B001A3383 /* wordTreeTranslation.c */; };
+		B690A5581A18198B001A3383 /* wordTreeIterator.c in Sources */ = {isa = PBXBuildFile; fileRef = B690A5561A18198B001A3383 /* wordTreeIterator.c */; };
 		B6AA7AD119F4207C00202A7E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B6AA7AD019F4207C00202A7E /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordTreeConstruction.h; sourceTree = "<group>"; };
 		B690A5531A17F61B001A3383 /* wordTreeTranslation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordTreeTranslation.c; sourceTree = "<group>"; };
 		B690A5541A17F61B001A3383 /* wordTreeTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordTreeTranslation.h; sourceTree = "<group>"; };
+		B690A5561A18198B001A3383 /* wordTreeIterator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordTreeIterator.c; sourceTree = "<group>"; };
+		B690A5571A18198B001A3383 /* wordTreeIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordTreeIterator.h; sourceTree = "<group>"; };
 		B6AA7ACD19F4207C00202A7E /* HashDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AA7AD019F4207C00202A7E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				B60AA0931A0ED028000BCC64 /* file.c */,
+				B690A5561A18198B001A3383 /* wordTreeIterator.c */,
 				B690A5531A17F61B001A3383 /* wordTreeTranslation.c */,
 				B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */,
 				B60AA0911A0ED00B000BCC64 /* wordFinder.c */,
@@ -68,6 +72,7 @@
 			children = (
 				B60AA09A1A0ED175000BCC64 /* typeDefinition.h */,
 				B60AA0991A0ED081000BCC64 /* file.h */,
+				B690A5571A18198B001A3383 /* wordTreeIterator.h */,
 				B690A5541A17F61B001A3383 /* wordTreeTranslation.h */,
 				B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */,
 				B60AA0981A0ED07C000BCC64 /* wordFinder.h */,
@@ -159,6 +164,7 @@
 				B60AA09F1A0ED20E000BCC64 /* wordTreeConstruction.c in Sources */,
 				B690A5551A17F61B001A3383 /* wordTreeTranslation.c in Sources */,
 				B6AA7AD119F4207C00202A7E /* main.c in Sources */,
+				B690A5581A18198B001A3383 /* wordTreeIterator.c in Sources */,
 				B60AA0921A0ED00B000BCC64 /* wordFinder.c in Sources */,
 				B60AA0941A0ED028000BCC64 /* file.c in Sources */,
 			);

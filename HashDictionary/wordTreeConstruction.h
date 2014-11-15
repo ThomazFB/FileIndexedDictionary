@@ -13,15 +13,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "typeDefinition.h"
-#include "queue.h"
 #include "wordFinder.h"
 #include "file.h"
 
-void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds);
+void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds, int * nodeID);
 
 WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
-void addNode(Dictionary * dictionary, int positionInFile, char index);
+void addNode(Dictionary * dictionary, int positionInFile, int * nodeID, char index);
 
 void startDictionaryReading(Dictionary * dic, FILE * dictionary);
 

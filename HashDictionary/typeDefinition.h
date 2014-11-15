@@ -17,16 +17,15 @@ typedef enum boolean
 
 typedef struct childInfo
 {
-    char letter;
-    int position;
+    char childLetter;
+    int fileReference;
     struct wordIndex * node;
 }ChildInfo;
 
 typedef struct wordIndex
 {
     char letter;
-    int wordPosition;
-    int filePosition;
+    int verbatePosition;
     int numberOfChilds;
     ChildInfo childs[26];
 }WordIndex;
@@ -35,7 +34,6 @@ typedef struct dictionary
 {
     WordIndex * tree;
     WordIndex * currentPosition;
-    char * fileTrees;
 }Dictionary;
 
 #endif

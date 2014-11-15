@@ -14,6 +14,8 @@
 
 FILE * getDictionaryReference();
 
+FILE * getIndexedDictionaryReference();
+
 void setFileRegisterToStartPoint(FILE * dictionary);
 
 #endif

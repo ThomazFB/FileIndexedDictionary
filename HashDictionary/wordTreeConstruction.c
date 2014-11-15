@@ -19,7 +19,7 @@ WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 {
     for(int i = 0; i < node->numberOfChilds; i++)
     {
-        if(node->childs[i].letter == letter)
+        if(node->childs[i].childLetter == letter)
         {
             return node->childs[i].node;
         }
@@ -36,28 +36,29 @@ void startTree(Dictionary * dictionary)
     dictionary->currentPosition = newStart;
 }
 
-void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds)
+void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds,int *nodeID)
 {
     (*word) = (WordIndex *) malloc(sizeof(WordIndex));
     (*word)->letter = index;
-    (*word)->wordPosition = positionInFile;
+    (*word)->verbatePosition = positionInFile;
     (*word)->numberOfChilds = 0;
-    (*newChild).letter = index;
-    (*newChild).position = positionInFile;
+    (*newChild).childLetter = index;
+    (*newChild).fileReference = (*nodeID);
     (*newChild).node = (*word);
     dictionary->currentPosition->childs[numberOfChilds] = (*newChild);
     dictionary->currentPosition->numberOfChilds++;
+    (*nodeID)++;
 }
 
-void addNode(Dictionary * dictionary, int positionInFile, char index)
+void addNode(Dictionary * dictionary, int positionInFile, int * nodeID, char index)
 {
     WordIndex * word;
     ChildInfo newChild;
     int numberOfChilds = dictionary->currentPosition->numberOfChilds;
-    word = isThereChildWithletter(dictionary->currentPosition,index); //se existe filho, retorna o endereço, se não, retorna nulo
+    word = isThereChildWithletter(dictionary->currentPosition,index);
     if(word == NULL)
     {
-        createNode(dictionary, &word, &newChild, positionInFile, index, numberOfChilds);
+        createNode(dictionary, &word, &newChild, positionInFile, index, numberOfChilds,nodeID);
     }
     dictionary->currentPosition = word;
 }
@@ -67,12 +68,13 @@ void startDictionaryReading(Dictionary * dic, FILE * dictionary)
     char actualLine[1300];
     startTree(dic);
     setFileRegisterToStartPoint(dictionary);
-    for(int countLine = 0; !feof(dictionary); countLine++)
+    int nodeID = 1;
+    for(int verbateNumber = 0; !feof(dictionary); verbateNumber++)
     {
         fgets(actualLine,1300,dictionary);
         for(int i = 0; i < 4 && actualLine[i] != '@'; i++)
         {
-            addNode(dic,countLine,actualLine[i]);
+            addNode(dic,verbateNumber,&nodeID,actualLine[i]);
         }
         refreshTree(dic);
     }
