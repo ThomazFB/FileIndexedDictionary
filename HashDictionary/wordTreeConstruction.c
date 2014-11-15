@@ -10,6 +10,11 @@
 
 //ChaosKeeper Tree implementation
 
+void refreshTree(Dictionary * dictionary)
+{
+    dictionary->currentPosition = dictionary->tree;
+}
+
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 {
     for(int i = 0; i < node->numberOfChilds; i++)
@@ -22,6 +27,29 @@ WordIndex * isThereChildWithletter(WordIndex * node, char letter)
     return NULL;
 }
 
+void startTree(Dictionary * dictionary)
+{
+    WordIndex * newStart = (WordIndex *) malloc(sizeof(WordIndex));
+    newStart->letter = '@';
+    newStart->numberOfChilds = 0;
+    dictionary->tree = newStart;
+    dictionary->currentPosition = newStart;
+}
+
+void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds)
+{
+    (*word) = (WordIndex *) malloc(sizeof(WordIndex));
+    (*word)->letter = index;
+    (*word)->wordPosition = positionInFile;
+    (*word)->numberOfChilds = 0;
+    (*newChild).letter = index;
+    (*newChild).position = positionInFile;
+    (*newChild).node = (*word);
+    dictionary->currentPosition->childs[numberOfChilds] = (*newChild);
+    dictionary->currentPosition->numberOfChilds++;
+
+}
+
 void addNode(Dictionary * dictionary, int positionInFile, char index)
 {
     WordIndex * word;
@@ -30,15 +58,7 @@ void addNode(Dictionary * dictionary, int positionInFile, char index)
     word = isThereChildWithletter(dictionary->currentPosition,index); //se existe filho, retorna o endereço, se não, retorna nulo
     if(word == NULL)
     {
-        word = (WordIndex *) malloc(sizeof(WordIndex));
-        word->letter = index;
-        word->wordPosition = positionInFile;
-        word->numberOfChilds = 0;
-        newChild.letter = index;
-        newChild.position = positionInFile;
-        newChild.node = word;
-        dictionary->currentPosition->childs[numberOfChilds] = newChild;
-        dictionary->currentPosition->numberOfChilds++;
+        createNode(dictionary, &word, &newChild, positionInFile, index, numberOfChilds);
     }
     dictionary->currentPosition = word;
 }
@@ -57,18 +77,4 @@ void startDictionaryReading(Dictionary * dic, FILE * dictionary)
         }
         refreshTree(dic);
     }
-}
-
-void startTree(Dictionary * dictionary)
-{
-    WordIndex * newStart = (WordIndex *) malloc(sizeof(WordIndex));
-    newStart->letter = '@';
-    newStart->numberOfChilds = 0;
-    dictionary->tree = newStart;
-    dictionary->currentPosition = newStart;
-}
-
-void refreshTree(Dictionary * dictionary)
-{
-    dictionary->currentPosition = dictionary->tree;
 }
