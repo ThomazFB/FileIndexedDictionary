@@ -23,6 +23,8 @@ WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
 void addNode(Dictionary * dictionary, char positionInFile, char index);
 
+void startDictionaryReading(Dictionary * dic, FILE * dictionary);
+
 void startTree(Dictionary * dictionary);
 
 void refreshTree(Dictionary * dictionary);
