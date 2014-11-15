@@ -30,7 +30,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "143"
-            endingLineNumber = "143">
+            endingLineNumber = "143"
+            landmarkName = "startDictionaryReading()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -44,7 +46,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "137"
-            endingLineNumber = "137">
+            endingLineNumber = "137"
+            landmarkName = "startDictionaryReading()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

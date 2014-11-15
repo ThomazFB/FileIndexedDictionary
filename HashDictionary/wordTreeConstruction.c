@@ -47,7 +47,6 @@ void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild
     (*newChild).node = (*word);
     dictionary->currentPosition->childs[numberOfChilds] = (*newChild);
     dictionary->currentPosition->numberOfChilds++;
-
 }
 
 void addNode(Dictionary * dictionary, int positionInFile, char index)
