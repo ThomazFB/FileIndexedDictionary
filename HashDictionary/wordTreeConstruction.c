@@ -12,8 +12,6 @@ void getFirstWord(char * line, char * buffer)
 {
 }
 
-
-
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 {
     for(int i = 0; i < node->numberOfChilds; i++)
@@ -28,21 +26,28 @@ WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 
 void addNode(Dictionary * dictionary, char positionInFile, char index)
 {
-    WordIndex * child;
-    child = isThereChildWithletter(dictionary->currentPosition,index); //se existe filho, retorna o endereço, se não, retorna nulo
-    if(child == NULL)
+    WordIndex * word;
+    ChildInfo newChild;
+    int numberOfChilds = dictionary->currentPosition->numberOfChilds;
+    word = isThereChildWithletter(dictionary->currentPosition,index); //se existe filho, retorna o endereço, se não, retorna nulo
+    if(word == NULL)
     {
-        child = (WordIndex *) malloc(sizeof(WordIndex));
-        child->letter = index;
-        child->wordPosition = positionInFile;
-        child->numberOfChilds = 0;
+        word = (WordIndex *) malloc(sizeof(WordIndex));
+        word->letter = index;
+        word->wordPosition = positionInFile;
+        word->numberOfChilds = 0;
+        newChild->letter = index;
+        newChild->position = positionInFile;
+        newChild->node = word;
+        dictionary->currentPosition->childInfo[numberOfChilds] = child;
     }
-    dictionary->currentPosition = child;
+    dictionary->currentPosition = word;
 }
 
 void startDictionaryReading(Dictionary * dic, FILE * dictionary)
 {
     char * actualLine;
+    startTree(dic);
     for(int countLine = 0; !feof(dictionary); countLine++)
     {
         actualLine = fgets(dictionary);
