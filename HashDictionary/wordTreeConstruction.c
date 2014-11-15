@@ -8,6 +8,7 @@
 
 #include "wordTreeConstruction.h"
 
+
 void getFirstWord(char * line, char * buffer)
 {
 }
@@ -36,10 +37,10 @@ void addNode(Dictionary * dictionary, char positionInFile, char index)
         word->letter = index;
         word->wordPosition = positionInFile;
         word->numberOfChilds = 0;
-        newChild->letter = index;
-        newChild->position = positionInFile;
-        newChild->node = word;
-        dictionary->currentPosition->childInfo[numberOfChilds] = child;
+        newChild.letter = index;
+        newChild.position = positionInFile;
+        newChild.node = word;
+        dictionary->currentPosition->childs[numberOfChilds].node = word;
     }
     dictionary->currentPosition = word;
 }
@@ -50,7 +51,7 @@ void startDictionaryReading(Dictionary * dic, FILE * dictionary)
     startTree(dic);
     for(int countLine = 0; !feof(dictionary); countLine++)
     {
-        actualLine = fgets(dictionary);
+        fgets(actualLine,1300,dictionary);
         for(int i = 0; i < 4 && actualLine[i] != '@'; i++)
         {
             addNode(dic,countLine,actualLine[i]);
