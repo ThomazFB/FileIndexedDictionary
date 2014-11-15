@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/main.c"
-            timestampString = "437357592.236356"
+            timestampString = "437779283.024994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,12 +26,18 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            timestampString = "437779640.418412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
             startingLineNumber = "174"
             endingLineNumber = "174"
             landmarkName = "fourthLayerIteration()"
+=======
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "startDictionaryReading()"
+>>>>>>> Tree-Composition
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +48,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            timestampString = "437779640.418412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
-            landmarkName = "fourthLayerIteration()"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "startDictionaryReading()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +64,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            timestampString = "437779640.418412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "thirdLayerIteration()"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "addNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/main.c"
+            timestampString = "437779283.024994"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "main()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,12 +96,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            timestampString = "437779640.418412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "secondLayerIteration()"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "startDictionaryReading()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,12 +112,18 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            timestampString = "437779640.418412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
             startingLineNumber = "117"
             endingLineNumber = "117"
             landmarkName = "getWordAmount()"
+=======
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "startDictionaryReading()"
+>>>>>>> Tree-Composition
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -105,13 +133,93 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HashDictionary/wordTreeConstruction.c"
-            timestampString = "437184382.102902"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437786807.927121"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "layerOneWordCounter()"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "startTranslation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437785479.751363"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "saveNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437786388.828082"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "saveNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437786640.454954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "saveNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437786640.454954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "saveNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HashDictionary/wordTreeTranslation.c"
+            timestampString = "437786640.454954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "saveNode()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

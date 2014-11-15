@@ -15,6 +15,12 @@ FILE * getDictionaryReference()
     return newFile;
 }
 
+FILE * getIndexedDictionaryReference()
+{
+    FILE * newFile = fopen("/Users/ThomazFB/Documents/Library/XCode/HashDictionary/Files/indexedDictionary", "w+b");
+    return newFile;
+}
+
 void setFileRegisterToStartPoint(FILE * dictionary)
 {
     fseek(dictionary, 0, SEEK_SET);

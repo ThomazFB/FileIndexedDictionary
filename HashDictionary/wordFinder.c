@@ -13,7 +13,7 @@ char * removeWordFromLine(char * wordLine)
     char * word;
     int wordSize = 1;
     int cont = 0;
-    while (wordLine[cont] != '@')
+    while (wordLine[cont] != '@' && wordLine[cont] != '\n')
     {
         wordSize++;
         cont++;

@@ -13,22 +13,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "typeDefinition.h"
-#include "queue.h"
 #include "wordFinder.h"
 #include "file.h"
 
-Queue layerOneWordCounter(FILE * dictionary);
+void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds, int * nodeID);
 
-int layerTwoWordCounter(FILE * dictionary, char firstLayerWord);
+WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
-int layerThreeWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord);
+void addNode(Dictionary * dictionary, int positionInFile, int * nodeID, char index);
 
-int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord, char thirdLayerWord);
+void startDictionaryReading(Dictionary * dic, FILE * dictionary);
 
-int getWordAmount(FILE * dictionary, int layer, char * actualWord);
+void startTree(Dictionary * dictionary);
 
-int createRelativeChilds(FILE * dictionary, int layer, char * referenceLetters);
-
-void startIndexGenerator(FILE * dictionary);
+void refreshTree(Dictionary * dictionary);
 
 #endif /* defined(__HashDictionary__wordTreeConstruction__) */

@@ -8,178 +8,74 @@
 
 #include "wordTreeConstruction.h"
 
-#define letterAfterZ 123
+//ChaosKeeper Tree implementation
 
-//Trecho de código experimental, refatoramento pendente em vários métodos.
-
-Queue layerOneWordCounter(FILE * dictionary)
+void refreshTree(Dictionary * dictionary)
 {
-    char referenceWord = 97;
-    char * actualLine = (char *) malloc(sizeof(char) * 1300);
-    WordIndex newWord;
-    int wordCounter = 0;
-    int positionCounter = 0;
-    Queue queue;
-    initialize(&queue);
+    dictionary->currentPosition = dictionary->tree;
+}
+
+WordIndex * isThereChildWithletter(WordIndex * node, char letter)
+{
+    for(int i = 0; i < node->numberOfChilds; i++)
+    {
+        if(node->childs[i].childLetter == letter)
+        {
+            return node->childs[i].node;
+        }
+    }
+    return NULL;
+}
+
+void startTree(Dictionary * dictionary)
+{
+    WordIndex * newStart = (WordIndex *) malloc(sizeof(WordIndex));
+    newStart->letter = '@';
+    newStart->numberOfChilds = 0;
+    dictionary->tree = newStart;
+    dictionary->currentPosition = newStart;
+}
+
+void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds,int *nodeID)
+{
+    (*word) = (WordIndex *) malloc(sizeof(WordIndex));
+    (*word)->letter = index;
+    (*word)->verbatePosition = positionInFile;
+    (*word)->numberOfChilds = 0;
+    (*newChild).childLetter = index;
+    (*newChild).fileReference = (*nodeID);
+    (*newChild).node = (*word);
+    dictionary->currentPosition->childs[numberOfChilds] = (*newChild);
+    dictionary->currentPosition->numberOfChilds++;
+    (*nodeID)++;
+}
+
+void addNode(Dictionary * dictionary, int positionInFile, int * nodeID, char index)
+{
+    WordIndex * word;
+    ChildInfo newChild;
+    int numberOfChilds = dictionary->currentPosition->numberOfChilds;
+    word = isThereChildWithletter(dictionary->currentPosition,index);
+    if(word == NULL)
+    {
+        createNode(dictionary, &word, &newChild, positionInFile, index, numberOfChilds,nodeID);
+    }
+    dictionary->currentPosition = word;
+}
+
+void startDictionaryReading(Dictionary * dic, FILE * dictionary)
+{
+    char actualLine[1300];
+    startTree(dic);
     setFileRegisterToStartPoint(dictionary);
-    
-    while(!feof(dictionary) && referenceWord < letterAfterZ)
+    int nodeID = 1;
+    for(int verbateNumber = 0; !feof(dictionary); verbateNumber++)
     {
-        fgets(actualLine, 1300, dictionary);
-        if(actualLine[0] == referenceWord)
+        fgets(actualLine,1300,dictionary);
+        for(int i = 0; i < 4 && actualLine[i] != '@'; i++)
         {
-            newWord.numberOfChilds = positionCounter;
-            enqueue(queue, newWord);
-            wordCounter++;
-            referenceWord++;
+            addNode(dic,verbateNumber,&nodeID,actualLine[i]);
         }
-        positionCounter++;
+        refreshTree(dic);
     }
-    return queue;
-}
-
-int layerTwoWordCounter(FILE * dictionary, char firstLayerWord)
-{
-    char referenceWord = 97;
-    char * actualLine = (char *) malloc(sizeof(char) * 1300);
-    int wordCounter = 0;
-    setFileRegisterToStartPoint(dictionary);
-    while (!feof(dictionary) && referenceWord < letterAfterZ)
-    {
-        fgets(actualLine, 1300, dictionary);
-        if(actualLine[0] == firstLayerWord && referenceWord == actualLine[1])
-        {
-            wordCounter++;
-            referenceWord++;
-        }
-    }
-    
-    return wordCounter;
-}
-
-int layerThreeWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord)
-{
-    char referenceWord = 97;
-    char * actualLine = (char *) malloc(sizeof(char) * 1300);
-    int wordCounter = 0;
-    setFileRegisterToStartPoint(dictionary);
-    while (!feof(dictionary) && referenceWord < letterAfterZ)
-    {
-        fgets(actualLine, 1300, dictionary);
-        if(actualLine[0] == firstLayerWord && actualLine[1] == secondLayerWord && referenceWord == actualLine[2])
-        {
-            wordCounter++;
-            referenceWord++;
-        }
-    }
-    
-    return wordCounter;
-}
-
-int layerFourWordCounter(FILE * dictionary, char firstLayerWord, char secondLayerWord, char thirdLayerWord)
-{
-    char referenceWord = 97;
-    char * actualLine = (char *) malloc(sizeof(char) * 1300);
-    int wordCounter = 0;
-    setFileRegisterToStartPoint(dictionary);
-    while (!feof(dictionary) && referenceWord < letterAfterZ)
-    {
-        fgets(actualLine, 1300, dictionary);
-        if(actualLine[0] == firstLayerWord && actualLine[1] == secondLayerWord && actualLine[2] == thirdLayerWord && referenceWord == actualLine[3])
-        {
-            
-            wordCounter++;
-            referenceWord++;
-        }
-    }
-    
-    return wordCounter;
-}
-
-int getWordAmount(FILE * dictionary, int layer, char * actualWord)
-{
-    switch (layer)
-    {
-        case 1:
-            //return layerOneWordCounter(dictionary);
-            
-        case 2:
-            return layerTwoWordCounter(dictionary, actualWord[0]);
-            
-        case 3:
-            return layerThreeWordCounter(dictionary, actualWord[0], actualWord[1]);
-            
-        case 4:
-            return layerFourWordCounter(dictionary, actualWord[0], actualWord[1], actualWord[2]);
-            
-        default:
-            return -1;
-    }
-}
-
-int createRelativeChilds(FILE * dictionary, int layer, char * referenceLetters)
-{
-    int wordAmount = getWordAmount(dictionary,layer,referenceLetters);
-    return wordAmount;
-}
-
-int secondLayerIteration(FILE * dictionary)
-{
-    char referenceLetter = 97;
-    int wordAmount = 0;
-    while (referenceLetter < letterAfterZ)
-    {
-        wordAmount = wordAmount + layerTwoWordCounter(dictionary, referenceLetter);
-        referenceLetter++;
-    }
-    return wordAmount;
-}
-
-int thirdLayerIteration(FILE * dictionary)
-{
-    char referenceLetters[2] = {97,97};
-    int wordAmount = 0;
-    while (referenceLetters[0] < letterAfterZ)
-    {
-        referenceLetters[1] = 97;
-        while (referenceLetters[1] < letterAfterZ)
-        {
-            wordAmount = wordAmount + layerThreeWordCounter(dictionary, referenceLetters[0], referenceLetters[1]);
-            referenceLetters[1]++;
-        }
-        referenceLetters[0]++;
-    }
-    return wordAmount;
-}
-
-int fourthLayerIteration(FILE * dictionary)
-{
-    char referenceLetters[3] = {97,97,97};
-    int wordAmount = 0;
-    while (referenceLetters[0] < letterAfterZ)
-    {
-        referenceLetters[1] = 97;
-        while (referenceLetters[1] < letterAfterZ)
-        {
-            referenceLetters[2] = 97;
-            while (referenceLetters[2] < letterAfterZ)
-            {
-                wordAmount = wordAmount + layerFourWordCounter(dictionary, referenceLetters[0], referenceLetters[1], referenceLetters[2]);
-                referenceLetters[2]++;
-            }
-            referenceLetters[1]++;
-        }
-        referenceLetters[0]++;
-    }
-    return wordAmount;
-}
-
-void startIndexGenerator(FILE * dictionary)
-{
-    int wordAmount = 0;
-    //wordAmount = layerOneWordCounter(dictionary);
-    wordAmount = wordAmount + secondLayerIteration(dictionary);
-    wordAmount = wordAmount + thirdLayerIteration(dictionary);
-    wordAmount = wordAmount + fourthLayerIteration(dictionary);
-    printf("%i",wordAmount);
 }

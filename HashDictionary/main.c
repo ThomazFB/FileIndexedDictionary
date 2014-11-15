@@ -4,10 +4,14 @@
 #include "file.h"
 #include "typeDefinition.h"
 #include "wordTreeConstruction.h"
+#include "wordTreeTranslation.h"
 
 int main()
 {
     FILE * dictionary = getDictionaryReference();
-    startIndexGenerator(dictionary);
+    FILE * indexedDictionary = getIndexedDictionaryReference();
+    Dictionary * mainTreeDescriptor = (Dictionary *) malloc(sizeof(Dictionary));
+    startDictionaryReading(mainTreeDescriptor, dictionary);
+    startTranslation(mainTreeDescriptor,indexedDictionary);
     return 0;
 }
