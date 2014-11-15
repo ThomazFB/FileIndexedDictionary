@@ -10,8 +10,9 @@
 
 void getFirstWord(char * line, char * buffer)
 {
-    
 }
+
+
 
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 {
@@ -39,12 +40,28 @@ void addNode(Dictionary * dictionary, char positionInFile, char index)
     dictionary->currentPosition = child;
 }
 
+void startDictionaryReading(Dictionary * dic, FILE * dictionary)
+{
+    char * actualLine;
+    for(int countLine = 0; !feof(dictionary); countLine++)
+    {
+        actualLine = fgets(dictionary);
+        for(int i = 0; i < 4 && actualLine[i] != '@'; i++)
+        {
+            addNode(dic,countLine,actualLine[i]);
+        }
+        refreshTree(dic);
+    }
+}
+
 void startTree(Dictionary * dictionary)
 {
     WordIndex * newStart = (WordIndex *) malloc(sizeof(WordIndex));
     newStart->letter = '@';
+    newStart->numberOfChilds = 0;
     dictionary->tree = newStart;
     dictionary->currentPosition = newStart;
+
 }
 
 void refreshTree(Dictionary * dictionary)
