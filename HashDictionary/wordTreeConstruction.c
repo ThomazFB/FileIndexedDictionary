@@ -57,7 +57,6 @@ void startDictionaryReading(Dictionary * dic, FILE * dictionary)
         }
         refreshTree(dic);
     }
-    printf("HUE");
 }
 
 void startTree(Dictionary * dictionary)
