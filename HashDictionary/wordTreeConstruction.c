@@ -13,6 +13,8 @@ void getFirstWord(char * line, char * buffer)
 {
 }
 
+//ChaosKeeper Tree implementation
+
 WordIndex * isThereChildWithletter(WordIndex * node, char letter)
 {
     for(int i = 0; i < node->numberOfChilds; i++)
@@ -25,7 +27,7 @@ WordIndex * isThereChildWithletter(WordIndex * node, char letter)
     return NULL;
 }
 
-void addNode(Dictionary * dictionary, char positionInFile, char index)
+void addNode(Dictionary * dictionary, int positionInFile, char index)
 {
     WordIndex * word;
     ChildInfo newChild;
@@ -41,7 +43,6 @@ void addNode(Dictionary * dictionary, char positionInFile, char index)
         newChild.position = positionInFile;
         newChild.node = word;
         dictionary->currentPosition->childs[numberOfChilds] = newChild;
-        //dictionary->currentPosition->childs[numberOfChilds].node = word;
         dictionary->currentPosition->numberOfChilds++;
     }
     dictionary->currentPosition = word;

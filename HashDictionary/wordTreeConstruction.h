@@ -21,7 +21,7 @@ void getFirstWord(char * line, char * buffer);
 
 WordIndex * isThereChildWithletter(WordIndex * node, char letter);
 
-void addNode(Dictionary * dictionary, char positionInFile, char index);
+void addNode(Dictionary * dictionary, int positionInFile, char index);
 
 void startDictionaryReading(Dictionary * dic, FILE * dictionary);
 
