@@ -58,11 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				B60AA0931A0ED028000BCC64 /* file.c */,
-				B690A5561A18198B001A3383 /* wordTreeIterator.c */,
-				B690A5531A17F61B001A3383 /* wordTreeTranslation.c */,
-				B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */,
 				B60AA0911A0ED00B000BCC64 /* wordFinder.c */,
-				B6AA7AD019F4207C00202A7E /* main.c */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -72,12 +68,47 @@
 			children = (
 				B60AA09A1A0ED175000BCC64 /* typeDefinition.h */,
 				B60AA0991A0ED081000BCC64 /* file.h */,
-				B690A5571A18198B001A3383 /* wordTreeIterator.h */,
-				B690A5541A17F61B001A3383 /* wordTreeTranslation.h */,
-				B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */,
 				B60AA0981A0ED07C000BCC64 /* wordFinder.h */,
 			);
 			name = Header;
+			sourceTree = "<group>";
+		};
+		B65BBEDC1A1A3D3400D9AB4F /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				B65BBEDD1A1A3D4500D9AB4F /* Header */,
+				B65BBEDE1A1A3D4B00D9AB4F /* Source */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		B65BBEDD1A1A3D4500D9AB4F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B690A5571A18198B001A3383 /* wordTreeIterator.h */,
+				B690A5541A17F61B001A3383 /* wordTreeTranslation.h */,
+				B60AA09E1A0ED20E000BCC64 /* wordTreeConstruction.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		B65BBEDE1A1A3D4B00D9AB4F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B690A5561A18198B001A3383 /* wordTreeIterator.c */,
+				B690A5531A17F61B001A3383 /* wordTreeTranslation.c */,
+				B60AA09D1A0ED20E000BCC64 /* wordTreeConstruction.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		B65BBEDF1A1A3D7100D9AB4F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B60AA0971A0ED06E000BCC64 /* Header */,
+				B60AA0961A0ED05D000BCC64 /* Source */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		B6AA7AC419F4207B00202A7E = {
@@ -99,8 +130,9 @@
 		B6AA7ACF19F4207C00202A7E /* HashDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				B60AA0971A0ED06E000BCC64 /* Header */,
-				B60AA0961A0ED05D000BCC64 /* Source */,
+				B65BBEDF1A1A3D7100D9AB4F /* Tools */,
+				B65BBEDC1A1A3D3400D9AB4F /* Tree */,
+				B6AA7AD019F4207C00202A7E /* main.c */,
 			);
 			path = HashDictionary;
 			sourceTree = "<group>";
