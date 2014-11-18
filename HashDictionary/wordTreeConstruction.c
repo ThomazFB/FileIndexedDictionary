@@ -15,13 +15,13 @@ void refreshTree(Dictionary * dictionary)
     dictionary->currentPosition = dictionary->tree;
 }
 
-WordIndex * isThereChildWithletter(WordIndex * node, char letter)
+WordIndex * isThereChildWithletter(WordIndex * currentPosition, char letter)
 {
-    for(int i = 0; i < node->numberOfChilds; i++)
+    for(int i = 0; i < currentPosition->numberOfChilds; i++)
     {
-        if(node->childs[i].childLetter == letter)
+        if(currentPosition->childs[i].childLetter == letter)
         {
-            return node->childs[i].node;
+            return currentPosition->childs[i].node;
         }
     }
     return NULL;

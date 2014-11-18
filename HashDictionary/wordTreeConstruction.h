@@ -18,7 +18,7 @@
 
 void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild, int positionInFile, char index, int numberOfChilds, int * nodeID);
 
-WordIndex * isThereChildWithletter(WordIndex * node, char letter);
+WordIndex * isThereChildWithletter(WordIndex * currentPosition, char letter);
 
 void addNode(Dictionary * dictionary, int positionInFile, int * nodeID, char index);
 
