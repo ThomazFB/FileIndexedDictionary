@@ -10,5 +10,11 @@
 #define __HashDictionary__wordTreeIterator__
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void doJump(FILE * indexedDictionary);
+
+void jumpStructAmount(int amount, FILE * indexedDictionary);
 
 #endif /* defined(__HashDictionary__wordTreeIterator__) */

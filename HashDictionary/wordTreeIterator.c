@@ -6,9 +6,10 @@
 //  Copyright (c) 2014 Thomaz F B. All rights reserved.
 //
 
+#include "typeDefinition.h"
+#include "wordFinder.h"
 #include "wordTreeIterator.h"
 #include "file.h"
-
 
 void doJump(FILE * indexedDictionary)
 {
@@ -30,10 +31,34 @@ void jumpStructAmount(int amount, FILE * indexedDictionary)
     }
 }
 
+WordIndex readNode(FILE * indexedDictionary)
+{
+    WordIndex auxiliarNode;
+    fread(&auxiliarNode.letter, sizeof(char), 1, indexedDictionary);
+    fread(&auxiliarNode.verbatePosition, sizeof(int), 1, indexedDictionary);
+    fread(&auxiliarNode.numberOfChilds, sizeof(int), 1, indexedDictionary);
+    for(int i = 0; i < auxiliarNode.numberOfChilds; i++)
+    {
+        ChildInfo auxiliarChild;
+        fread(&auxiliarChild.childLetter, sizeof(int), 1, indexedDictionary);
+        fread(&auxiliarChild.fileReference, sizeof(int), 1, indexedDictionary);
+        auxiliarNode.childs[i] = auxiliarChild;
+    }
+    return auxiliarNode;
+}
+
+void getVerbates(FILE * dictionary, int verbatePosition, char verbatesToLoad[10][1300])
+{
+    for(int i = 0; i < 10; i++)
+    {
+        strcpy(verbatesToLoad[i], findWordByPosition(dictionary, verbatePosition));
+        verbatePosition++;
+    }
+}
+
 void getWordPosition(char * buffer, int layer, FILE * indexedDictionary)
 {
-    int arraySize = layer - 1;
-    
+    //recebe um buffer e decide quantas iterações precisa para atingir a palavra
     for(int i = 0; i < layer; i++)
     {
         

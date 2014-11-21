@@ -15,6 +15,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void saveNode(WordIndex * node, FILE * indexedDictionary);
+
+void preOrderTranslation(WordIndex * node, FILE * indexedDictionary);
+
 void startTranslation(Dictionary * dictionary, FILE * indexedDictionary);
 
 #endif /* defined(__HashDictionary__wordTreeTranslation__) */
