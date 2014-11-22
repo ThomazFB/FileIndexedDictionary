@@ -17,4 +17,12 @@ void doJump(FILE * indexedDictionary);
 
 void jumpStructAmount(int amount, FILE * indexedDictionary);
 
+WordIndex readNode(FILE * indexedDictionary);
+
+void getVerbates(FILE * dictionary, int verbatePosition, char verbatesToLoad[10][1300]);
+
+int findChild(char keyLetter, WordIndex node);
+
+int getWordPosition(char * buffer, int layer, FILE * indexedDictionary);
+
 #endif /* defined(__HashDictionary__wordTreeIterator__) */

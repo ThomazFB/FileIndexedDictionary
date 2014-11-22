@@ -40,6 +40,7 @@ void createNode(Dictionary * dictionary, WordIndex ** word, ChildInfo * newChild
 {
     (*word) = (WordIndex *) malloc(sizeof(WordIndex));
     (*word)->letter = index;
+    (*word)->nodePosition = (*nodeID);
     (*word)->verbatePosition = positionInFile;
     (*word)->numberOfChilds = 0;
     (*newChild).childLetter = index;

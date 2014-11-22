@@ -39,5 +39,5 @@ char * findWordByPosition(FILE * dictionary, int wordPosition)
         cont++;
     }
     
-    return removeWordFromLine(line);
+    return line;
 }

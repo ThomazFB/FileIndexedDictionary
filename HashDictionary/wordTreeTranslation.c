@@ -12,6 +12,10 @@ void saveNode(WordIndex * node, FILE * indexedDictionary)
 {
     ChildInfo child;
     fwrite(&(node->letter), sizeof(char), 1, indexedDictionary);
+    fwrite(&(node->nodePosition), sizeof(int), 1, indexedDictionary);
+    if (node->nodePosition == 27) {
+        
+    }
     fwrite(&(node->verbatePosition),sizeof(int),1,indexedDictionary);
     fwrite(&(node->numberOfChilds),sizeof(int),1,indexedDictionary);
     for(int i = 0; i < node->numberOfChilds; i++)
