@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "typeDefinition.h"
 
 void doJump(FILE * indexedDictionary);
 

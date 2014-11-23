@@ -1170,7 +1170,7 @@ adustivo@ adj. Adurente.
 adusto@ adj. 1. Queimado. 2. Da cor do cafe.
 adutor@ (o), adj. 1. Que produz aducao. 2. Anat. Dizse de qualquer mosculo que aduz. 3. Dizse de canal que leva as aguas de um manancial para um reservatorio. S. m. Esse canal; adutora.
 adutora@ (o), s. f. Canal, galeria ou encanamento que leva agua de um manancial para um reservatorio; adutor.
-aduzir@ v. Tr. dir. 1. Expor, apresentar (razoes, testemunhas). 2. Conduzir, introduzir. (Perde o e final na 3ï™ pess. do sing. do pres. do indic.: aduz).
+aduzir@ v. Tr. dir. 1. Expor, apresentar (razoes, testemunhas). 2. Conduzir, introduzir. (Perde o e final na 3i™ pess. do sing. do pres. do indic.: aduz).
 adventicio@ adj. 1. Chegado de fora; estranho, estrangeiro. 2. Acidental, casual. 3. Deslocado do sitio que lhe e proprio. S. m. O que chega de fora; estrangeiro.
 advento@ s. m. 1. Vinda, chegada. 2. Periodo das quatro semanas que precedem o Natal.
 adverbal@ adj. m. e f. Gram. Dizse da forma gramatical que se constroi com um verbo: Gosto de frutas.
@@ -2239,7 +2239,7 @@ ambiguo@ adj. 1. Que pode ter diferentes significados; equivoco. 2. Incerto, ins
 ambito@ s. m. 1. Circuito, circunferencia. 2. Espaco delimitado; recinto. 3. Campo de acao; esfera.
 ambivalencia@ s. f. Qualidade do que tem dois valores, duas significacoes.
 ambivalente@ adj. m. e f. Em que ha ambivalencia.
-ambos@ num. Um e outro, os dois: Ambos os alunos. Pron. Os dois de quem se fala; eles dois: Ambos tiraram o 1ï∫ lugar.
+ambos@ num. Um e outro, os dois: Ambos os alunos. Pron. Os dois de quem se fala; eles dois: Ambos tiraram o 1i∫ lugar.
 ambulancia@ s. f. 1. Hospital militar movel. 2. Veiculo para transporte de doentes e feridos.
 ambulante@ adj. m. e f. 1. Que anda de um lugar a outro, sem ponto fixo. 2. Dizse do vendedor que nao tem ponto fixo.
 ambulatorio@ adj. 1. Que impele a andar. 2. Adaptado a marcha. S. m. Especie de enfermaria fixa, onde se atendem doentes que podem andar.
@@ -2414,8 +2414,8 @@ amouriscar@ v. Tr. dir. Dar aspecto mourisco a.
 amparado@ adj. 1. Apoiado. 2. Que desfruta de amparo.
 amparar@ v. 1. Tr. dir. e pron. Suster(se) para impedir de cair. 2. Tr. dir. e pron. Abrigar(se), resguardar(se). 3. Tr. dir. Dar meios de vida a; sustentar. 4. Tr. dir. Favorecer, patrocinar, proteger.
 amparo@ s. m. 1. Patrocinio, protecao. 2. Coisa ou pessoa que ampara; esteio. 3. Auxilio, ajuda.
-amperagem@ s. f. Fis. Intensidade de uma corrente eletrica em ampËres.
-ampËre@ s. m. Fis. Unidade pratica de medida eletrica, correspondente a intensidade de uma corrente eletrica que, com a forca eletromotriz de 1 volt, percorre um circuito com a resistencia de 1 ohm.
+amperagem@ s. f. Fis. Intensidade de uma corrente eletrica em amperes.
+ampere@ s. m. Fis. Unidade pratica de medida eletrica, correspondente a intensidade de uma corrente eletrica que, com a forca eletromotriz de 1 volt, percorre um circuito com a resistencia de 1 ohm.
 ampersand@ s. m. Sinal grafico (&) equivalente ao e (conjuncao) usado nos nomes de firmas como Salvador & Irmaos. Tambem se diz simplesmente e comercial.
 amplexo@ (cs), s. m. Abraco.
 ampliacao@ s. f. Ato ou efeito de ampliar(se).
@@ -5512,7 +5512,7 @@ bochorno@ s. m. 1. Ar abafadico. 2. Vento quente.
 bocio@ s. m. Med. Hipertrofia da glandula tireoide; papo.
 boco@ adj. e s., m. e f. Pop. Parvo, tolo, pateta.
 bocoroca@ s. f. Desmoronamento resultante de erosao subterranea produzida por aguas pluviais. Var.: vocoroca.
-bodas@ (o), s. f. pl. 1. Celebracao de casamento. 2. Festa para celebrar um casamento. 3. Banquete. o B. de brilhante: celebracao do 75ï∫ aniversario de casamento. B. de diamante: celebracao do 60ï∫ aniversario de casamento. B. de ouro: celebracao do 50.∫ aniversario de casamento. B. de prata: celebracao do 25.∫ aniversario de casamento.
+bodas@ (o), s. f. pl. 1. Celebracao de casamento. 2. Festa para celebrar um casamento. 3. Banquete. o B. de brilhante: celebracao do 75i∫ aniversario de casamento. B. de diamante: celebracao do 60i∫ aniversario de casamento. B. de ouro: celebracao do 50.∫ aniversario de casamento. B. de prata: celebracao do 25.∫ aniversario de casamento.
 bode@ s. m. 1. Zool. Ruminante cavicorneo, macho da cabra. 2. Pej. Mestico, mulato.
 bode@ s. m. 1. Zool. Ruminante cavicorneo, macho da cabra. 2. Pej. Mestico, mulato.
 bodega@ s. f. 1. Taberna pouco asseada; baioca. 2. Pandega.
@@ -8214,7 +8214,7 @@ colorante@ adj. m. e f. Que colore.
 colorar@ v. Colorir.
 colorau@ s. m. Po vermelho e condimento de pimentao seco ou tambem de urucu.
 colorido@ adj. 1. Feito a cores. 2. Que tem cores vivas. 3. Brilhante, imaginoso. S. m. 1. Cor ou combinacao de cores. 2. Vivacidade, brilho. 3. Pint. Matiz, tonalidade, tom.
-colorir@ v. 1. Tr. dir. Dar cor a, tingir ou matizar de cores; colorar. 2. Tr. dir. Ornar, enfeitar; colorar. 3. Tr. dir. Descrever brilhantemente. 4. Tr. dir. Encobrir, disfarcar. 5. Intr. e pron. Ficar colorido. o Nao se usa este verbo na 1ï™ pes. sing. do pres. do ind. e em todo o pres. do subj.
+colorir@ v. 1. Tr. dir. Dar cor a, tingir ou matizar de cores; colorar. 2. Tr. dir. Ornar, enfeitar; colorar. 3. Tr. dir. Descrever brilhantemente. 4. Tr. dir. Encobrir, disfarcar. 5. Intr. e pron. Ficar colorido. o Nao se usa este verbo na 1i™ pes. sing. do pres. do ind. e em todo o pres. do subj.
 colossal@ adj. m. e f. 1. Que tem proporcoes de colosso; agigantado, enorme. 2. Imenso, vastissimo.
 colosso@ (o), s. m. 1. Estatua de grandeza extraordinaria. 2. Pessoa corpulenta. 3. Objeto de grandes dimensoes. 4. Pessoa de grande poderio ou valimento. 5. Imperio ou soberania muito poderosa. 6. Pop. Grande quantidade. 7. Pop. Coisa excelente, excepcional.
 colostro@ (o), s. m. Fisiol. O primeiro liquido segregado pelas glandulas lactiferas logo depois do parto.
@@ -14194,7 +14194,7 @@ epizootia@ s. f. Vet. Qualquer doenca que afeta, ao mesmo tempo e no mesmo lugar
 epoca@ s. f. 1. Largo lapso de tempo assinalado por algum acontecimento notavel ou feicao constante. 2. Geol. Espaco de tempo que se seguiu a cada uma das grandes alteracoes do globo terrestre; subdivisao do periodo. 3. O momento em que uma coisa sucede. 4. O seculo, o tempo em que se vive. 5. Periodo, temporada, quadra, estacao.
 epopeia@ s. f. Lit. Poema que narra acoes grandiosas.
 epura@ s. f. Geom. Representacao, no plano, de uma figura no espaco, mediante projecoes.
-equacao@ s. f. Mat. Afirmacao da igualdade de duas expressoes ligadas pelo sinal =, que so se verifica para determinados valores das incognitas nelas contidas. As equacoes sao chamadas do 1ï∫, 2ï∫, 3ï∫, 4ï∫ etc. graus, de acordo com o expoente da maior potencia da incognita. 2. Astr. Quantidade variavel, mas calculada, que e preciso ajuntar ou subtrair ao movimento medio dos planetas, para se verificar o verdadeiro movimento.
+equacao@ s. f. Mat. Afirmacao da igualdade de duas expressoes ligadas pelo sinal =, que so se verifica para determinados valores das incognitas nelas contidas. As equacoes sao chamadas do 1i∫, 2i∫, 3i∫, 4i∫ etc. graus, de acordo com o expoente da maior potencia da incognita. 2. Astr. Quantidade variavel, mas calculada, que e preciso ajuntar ou subtrair ao movimento medio dos planetas, para se verificar o verdadeiro movimento.
 equador@ (o), s. m. 1. Geod. Circulo maximo imaginario da esfera terrestre, equidistante de ambos os polos. 2. Geod. Circulo da esfera terrestre, projecao do equador celeste. 3. Linha que divide a superficie de um corpo esferico ou esferoide em duas partes iguais ou quase iguais e simetricas: o equador de um balao, do olho, de um ovo.
 equanime@ adj. m. e f. 1. Que tem equanimidade. 2. Imparcial.
 equanimidade@ s. f. 1. Serenidade de espirito em todas as circunstancias. 2. Imparcialidade.
@@ -15994,7 +15994,7 @@ explicativo@ adj. Que explica, que serve para explicar.
 explicavel@ adj. m. e f. Que tem explicacao ou pode ser explicado.
 explicitar@ v. Tr. dir. Tornar explicito.
 explicito@ adj. 1. Claro, expresso. 2. Formulado em palavras. Anton.: implicito.
-explodir@ v. 1. Intr. Passar por combustao com libertacao repentina de energia, em forma de calor, que causa expansao violenta dos gases formados e consequente producao de grande pressao disruptiva e grande estrondo. 2. Intr. Passar por reacao nuclear atomica com resultados semelhantes, mas mais violentos. 3. Intr. Rebentar violentamente como resultado de pressao interna. 4. Tr. ind. e intr. Manifestarse ruidosamente. Nao se usa na 1ï™ pessoa do sing. do pres. ind. nem no subj. presente.
+explodir@ v. 1. Intr. Passar por combustao com libertacao repentina de energia, em forma de calor, que causa expansao violenta dos gases formados e consequente producao de grande pressao disruptiva e grande estrondo. 2. Intr. Passar por reacao nuclear atomica com resultados semelhantes, mas mais violentos. 3. Intr. Rebentar violentamente como resultado de pressao interna. 4. Tr. ind. e intr. Manifestarse ruidosamente. Nao se usa na 1i™ pessoa do sing. do pres. ind. nem no subj. presente.
 exploracao@ s. f. 1. Ato ou efeito de explorar. 2. Aquilo que se explora. 3. Pesquisa, analise. 4. Investigacao. 5. Tentativa ou ato de tirar utilidade de alguma coisa; aproveitamento, utilizacao. 6. Ato de extrair minerios, carvao, sal etc. de uma mina; mineracao. 7. Abuso da boa fe, da ignorancia ou da especial situacao de alguem, para auferir interesse ilicito.
 explorador@ (o), adj. Que explora. S. m. 1. Pessoa que viaja ou e enviada a procura de informacoes geograficas ou cientificas. 2. Espreitador do campo, dos movimentos do inimigo. 3. Desfrutador do dinheiro alheio; especulador.
 explorar@ v. Tr. dir. 1. Ir a descoberta de, tratar de descobrir. 2. Percorrer, estudando ou procurando. 3. Penetrar ou percorrer com o fim de fazer descobertas geograficas ou cientificas. 4. Observar, examinar (uma regiao) com fins comerciais ou militares. 5. Estudar, analisar, pesquisar. 6. Perscrutar, sondar. 7. Tirar proveito ou utilidade de. 8. Auferir interesses ilicitos, abusando da boa fe, da ignorancia ou da posicao de.
@@ -18465,7 +18465,7 @@ grumo@ s. m. 1. Med. Pequeno coagulo. 2. Granulo; nodulo. 3. Caroco que se forma
 grunhidela@ s. f. Ato de grunhir.
 grunhido@ s. m. Voz do porco.
 grunhidor@ (o) adj. e s. m. Que, ou aquele que grunhe.
-grunhir@ v. 1. Intr. Onom. Soltar grunhidos (o porco ou o javali). 2. Intr. Imitar a voz do porco. 3. Tr. dir. Proferir em grunhidos. 4. Intr. Resmungar. Nao se conjuga na 1ï™ pess. do sing. do pres. do ind. e em todo o pres. do subj.
+grunhir@ v. 1. Intr. Onom. Soltar grunhidos (o porco ou o javali). 2. Intr. Imitar a voz do porco. 3. Tr. dir. Proferir em grunhidos. 4. Intr. Resmungar. Nao se conjuga na 1i™ pess. do sing. do pres. do ind. e em todo o pres. do subj.
 grupal@ adj. m. e f. 1. Relativo a grupo. 2. Proprio de grupo.
 grupamento@ s. m. Ato ou efeito de grupar.
 grupar@ v. Agrupar.
@@ -21142,7 +21142,7 @@ jazer@ v. 1. Intr. Estar deitado (no solo ou no leito). 2. Intr. Estar morto ou 
 jazida@ s. f. 1. Lugar onde alguem jaz. 2. Posicao, postura, atitude de quem jaz. 3. Serenidade, quietacao. 4. Miner. Deposito natural de minerios.
 jazigo@ s. m. 1. Sepultura, tomulo. 2. Monumento funerario.
 jazz@ (djez), s. m. (t. ingl.). Mos. Mosica norteamericana caracterizada por improvisacao.
-je ou je@ adj. Etnol. Relativo aos Jes ou Jes, grupo etnografico a que pertence a maior parte das tribos dos tapuias. S. m. e f. Indigena desse grupo.
+jeouje@ adj. Etnol. Relativo aos Jes ou Jes, grupo etnografico a que pertence a maior parte das tribos dos tapuias. S. m. e f. Indigena desse grupo.
 jeca@ s. m. Caipira. o J.tatu: nome e simbolo do roceiro, quando doente e desanimado.
 jegue@ s. m. Jumento.
 jeitao@ s. m. Fam. Aspecto, aparencia.
@@ -22950,7 +22950,7 @@ manuseavel@ adj. Que pode ser manuseado.
 manuseio@ s. m. Ato de manusear; manuseamento.
 manutencao@ s. f. 1. Ato ou efeito de manter (se). 2. Sustento. 3. Dispendio com a conservacao de uma coisa. 4. Conjunto de revisoes e operacoes normais na conservacao de um veiculo em uso.
 manzape@ s. m. 1. Pau ou chicote com que se castiga alguem. 2. Ch. Penis. 3. Bolo de farinha de mandioca ou de milho. 4. Bolo mal feito.
-mao mao@ o. 14. Carda mioda e aparelhada com que se cardam os panos. 15. Cada um dos sentidos do transito nas ruas e estradas. 16. Lado direito de quem segue a pe ou vai guiando um veiculo. 17. O que pode caber na mao, ou tomarse sem esforco com ela. 18. Pequeno feixe. 19. Destreza manual. 20. Ponteiro de relogio. 21. Quantidade igual a cinco unidades. 22. Auxilio, ajuda. 23. Medida sertaneja para venda do milho em espigas. 24. Tip. A vigesima parte da resma. o Maoaberta: pessoa em cujas maos nao para dinheiro; esbanjador, gastador. Mao amiga: benfeitor ou benfeitora; protetor ou protetora. Maoboba: a do homem que se finge descuidado, enquanto, por meio dela, procura contatos sensuais com alguem. Maodeobra: a) trabalho manual, de que resulta um produto; b) custo da execucao de uma obra; c) os operarios que fazem um trabalho. Maofrancesa: braco ou cantoneira, para sustentacao de beiras de telhados, caixasd'agua etc. Maopelada: guaxinim. Maosdefada: maos de mulher habilidosa em trabalhos de cos
+maomao@ o. 14. Carda mioda e aparelhada com que se cardam os panos. 15. Cada um dos sentidos do transito nas ruas e estradas. 16. Lado direito de quem segue a pe ou vai guiando um veiculo. 17. O que pode caber na mao, ou tomarse sem esforco com ela. 18. Pequeno feixe. 19. Destreza manual. 20. Ponteiro de relogio. 21. Quantidade igual a cinco unidades. 22. Auxilio, ajuda. 23. Medida sertaneja para venda do milho em espigas. 24. Tip. A vigesima parte da resma. o Maoaberta: pessoa em cujas maos nao para dinheiro; esbanjador, gastador. Mao amiga: benfeitor ou benfeitora; protetor ou protetora. Maoboba: a do homem que se finge descuidado, enquanto, por meio dela, procura contatos sensuais com alguem. Maodeobra: a) trabalho manual, de que resulta um produto; b) custo da execucao de uma obra; c) os operarios que fazem um trabalho. Maofrancesa: braco ou cantoneira, para sustentacao de beiras de telhados, caixasd'agua etc. Maopelada: guaxinim. Maosdefada: maos de mulher habilidosa em trabalhos de cos
 maometanotura e bordados.@ adj. 1. Que se refere a Maome ou a sua seita; muculmano. 2. Que e sectario da religiao de Maome; muculmano. S. m. Sectario do maometismo; muculmano.
 maometismo@ s. m. Religiao fundada por Maome; islamismo, muculmanismo.
 maori@ adj. m. e f. Etnol. Relativo aos Maoris, povo da Nova Zelandia, de raca polinesia. S. m. Lingua dos maoris. S. m. e f. Pessoa dessa raca de indigenas.
@@ -26884,7 +26884,7 @@ pessegueiro@ s. m. Bot. arvore rosacea, cujo fruto e o pessego.
 pessimismo@ s. m. Tendencia das pessoas que, por indole ou reflexao, sao levadas a considerar tudo como um mal.
 pessimista@ adj. m. e f. Relativo ao pessimismo ou aos pessimistas. S. m. e f. Sequaz do pessimismo.
 pessimo@ adj. Sup. abs. sint. irregular de mau.
-pessoa@ (o), s. f. 1. Criatura humana; homem, mulher. 2. Personagem. 3. Individualidade. 4. Dir. Toda entidade natural ou moral com capacidade para ser sujeito ativo ou passivo de direito, na ordem civil. 5. Gram. Cada uma das diversas formas que assume o verbo na sua conjugacao para expressar quem fala (1ï™ pessoa), aquele a quem se fala (2ï™ pessoa) e aquele de quem se fala (3ï™ pessoa). Em p.: pessoalmente.
+pessoa@ (o), s. f. 1. Criatura humana; homem, mulher. 2. Personagem. 3. Individualidade. 4. Dir. Toda entidade natural ou moral com capacidade para ser sujeito ativo ou passivo de direito, na ordem civil. 5. Gram. Cada uma das diversas formas que assume o verbo na sua conjugacao para expressar quem fala (1i™ pessoa), aquele a quem se fala (2i™ pessoa) e aquele de quem se fala (3i™ pessoa). Em p.: pessoalmente.
 pessoal@ adj. m. e f. 1. Relativo a pessoa. 2. Que e proprio e particular de cada pessoa. 3. Exclusivo de certa pessoa; individual. 4. Gram. Dizse dos pronomes que representam as pessoas gramaticais. Sup. abs. sint.: pessoalissimo e personalissimo. S. m. 1. Conjunto das pessoas que trabalham num servico ou num estabelecimento. 2. O povo, a gente.
 pessoalidade@ s. f. Personalidade.
 pessoalizar@ v. Personificar.
@@ -28477,7 +28477,7 @@ psiquiatrico@ adj. Relativo a psiquiatria.
 psiquico@ adj. Relativo a psique, a alma ou ao psiquismo.
 psiquismo@ s. m. Med. Conjunto das caracteristicas psicologicas de um individuo.
 psitacideo@ adj. Relativo aos psitacideos. S. m. Ave da familia dos Psitacideos. S. m. pl. Ornit. Familia, onica, de aves da ordem dos Psitaciformes.
-psitaciformes@ s. m. pl. Ornit. Ordem de aves, constituida por especies que apresentam bico robusto, tao longo quanto alto, lingua carnuda e grossa, dois dedos medianos voltados para a frente, o 1ï∫ e o 4ï∫ dedos, para tras; ha uma so familia brasileira, a dos Psitacideos, que compreende os papagaios, araras e periquitos.
+psitaciformes@ s. m. pl. Ornit. Ordem de aves, constituida por especies que apresentam bico robusto, tao longo quanto alto, lingua carnuda e grossa, dois dedos medianos voltados para a frente, o 1i∫ e o 4i∫ dedos, para tras; ha uma so familia brasileira, a dos Psitacideos, que compreende os papagaios, araras e periquitos.
 psoas@ (o), s. m., sing. e pl. Anat. e Zool. Cada um de dois mosculos internos da regiao lombar, um maior e outro menor.
 pteridofitas@ s. f. pl. Bot. Divisao de plantas vasculares, sem flores, que formam esporangios nas folhas.
 pterigio@ s. m. Med. Afeccao ocular, que se caracteriza pela formacao de uma prega na conjuntiva, de forma triangular, com apice voltado para a cornea, chegando a cobrila.
@@ -32578,7 +32578,7 @@ suave@ adj. m. e f. 1. Em que ha suavidade. 2. Agradavel aos sentidos. 3. Ameno,
 suavidade@ s. f. 1. Qualidade daquilo que proporciona aos sentidos um prazer brando e delicado; brandura, docura. 2. Grande docura moral. 3. Alegria da alma, graca celeste cheia de docura.
 suavizacao@ s. f. Ato ou efeito de suavizar(se).
 suavizar@ v. Tr. dir. e pron. 1. Tornar(se) suave. 2. Mitigar(se), abrandar(se).
-sub judice@ loc. latina que quer dizer sob o juizo. Dir. Dizse tambem da causa sobre a qual o juiz ainda nao se pronunciou.
+subjudice@ loc. latina que quer dizer sob o juizo. Dir. Dizse tambem da causa sobre a qual o juiz ainda nao se pronunciou.
 subalternar@ v. 1. Tr. dir. e pron. Tornar(se) subalterno; por(se) em categoria inferior, subalternizar. 2. Tr. ind. e pron. Alternarse, revezarse.
 subalternidade@ s. f. 1. Estado ou qualidade de subalterno. 2. Dependencia, sujeicao.
 subalternizar@ v. Tr. dir. Subalternar.
@@ -33562,7 +33562,7 @@ teorizacao@ s. f. Ato ou efeito de teorizar.
 teorizar@ v. 1. Tr. dir. Criar teoria sobre; reduzir a teoria. 2. Intr. Discorrer sobre teorias, sem passar a pratica.
 tepidez@ (e), s. f. 1. Estado de tepido. 2. Frouxidao, tibieza.
 tepido@ adj. 1. Que tem pouco calor; ligeiramente morno. 2. Frouxo, tibio.
-ter ter@ lanta): Essa arvore tem muitos frutos. 15. Tr. dir. Ser dotado de. 16. Tr. dir. Trazer vestido ou calcado; trajar: Tens hoje um lindo vestido. 17. Tr. dir. Trazer consigo ou em si. 18. Tr. dir. Conservar, manter: Tem algo em segredo. 19. Tr. dir. e tr. ind. Ser repositorio de; abranger, conter. 20. Tr. dir. Ser concorrido, frequentado ou visitado por: O cinema teve uma enchente. 21. Tr. dir. Estar confiado ou entregue a: Temos um governo democratico. 22. Tr. dir. Experimentar, receber, sentir, sofrer (impressao, sensacao, sentimentos): Ter coragem. 23. Tr. ind. Apreciar, estimar. 24. Tr. dir. e pron. Considerar(se), julgar(se), reputar(se): Parece que mostra quanto por vil e baixo se tem. 25. Tr. dir. Admitir, concordar; julgar, supor: Tenho que as coisas vao muito mal. 26. Tr. ind. Dirigirse, encaminharse (em combinacao com o verbo ir): Ir ter a algum lugar. 27. Tr. dir. Emitir: Ter uma palavra de estimulo. 28. Forma com o participio os tempos compostos: A corrupcao tinha chegado ao amag
+terter@ lanta): Essa arvore tem muitos frutos. 15. Tr. dir. Ser dotado de. 16. Tr. dir. Trazer vestido ou calcado; trajar: Tens hoje um lindo vestido. 17. Tr. dir. Trazer consigo ou em si. 18. Tr. dir. Conservar, manter: Tem algo em segredo. 19. Tr. dir. e tr. ind. Ser repositorio de; abranger, conter. 20. Tr. dir. Ser concorrido, frequentado ou visitado por: O cinema teve uma enchente. 21. Tr. dir. Estar confiado ou entregue a: Temos um governo democratico. 22. Tr. dir. Experimentar, receber, sentir, sofrer (impressao, sensacao, sentimentos): Ter coragem. 23. Tr. ind. Apreciar, estimar. 24. Tr. dir. e pron. Considerar(se), julgar(se), reputar(se): Parece que mostra quanto por vil e baixo se tem. 25. Tr. dir. Admitir, concordar; julgar, supor: Tenho que as coisas vao muito mal. 26. Tr. ind. Dirigirse, encaminharse (em combinacao com o verbo ir): Ir ter a algum lugar. 27. Tr. dir. Emitir: Ter uma palavra de estimulo. 28. Forma com o participio os tempos compostos: A corrupcao tinha chegado ao amag
 terapeutao da sociedade.: s. m. e f. 1. Pessoa que exerce a terapeutica; medico, clinico. 2. Pessoa que conhece bem as indicacoes terapeuticas.
 terapeutica@ s. f. Parte da medicina que estuda e poe em pratica os meios adequados para aliviar ou curar os doentes; terapia.
 terapeutico@ adj. Relativo a terapeutica.
@@ -35251,7 +35251,7 @@ vacuo@ adj. Que nada contem; vazio. S. m. 1. Espaco, real ou imaginario, nao ocu
 vadeacao@ s. f. Ato ou efeito de vadear. Cfr. vadiacao.
 vadear@ v. Tr. dir. Passar ou atravessar a vau. Cfr. vadiar.
 vadeavel@ adj. m. e f. Que se pode vadear.
-vademecum@ (dË), s. m. Livro de pequeno formato e conteodo pratico. Pl.: vademecuns.
+vademecum@ (de), s. m. Livro de pequeno formato e conteodo pratico. Pl.: vademecuns.
 vadiacao@ s. f. Ato ou efeito de vadiar; vadiagem. Cfr. vadeacao.
 vadiagem@ s. f. 1. Vadiacao. 2. Vida de vadio.
 vadiar@ v. Intr. 1. Andar ociosamente de uma parte para outra: andar a turma. 2. Levar vida ociosa. 3. Brincar, divertirse. 4. Nao estudar; vagabundear. Cfr. vadear.
@@ -35872,7 +35872,7 @@ violoncelista@ s. m. e f. Tocador de violoncelo; violoncelo.
 violoncelo@ s. m. 1. Mos. Instrumento de quatro cordas, identico ao violino, porem muito maior, e que e tocado por meio de um arco de crina especial. 2. Violoncelista. 3. Mos. Registro de orgaos e harmonios.
 violonista@ s. m. e f. Pessoa que toca violao.
 viperino@ adj. 1. Relativo ou semelhante a vibora. 2. Que tem a natureza da vibora. 3. Venenoso. 4. Maldizente, mordaz. 5. Malefico, perverso.
-vir vir@ se (para a pessoa que fala); ou transportarse para ca. 6. Intr. Acudir. 7. Intr. Andar, caminhar. 8. Tr. ind. Descender. 9. Tr. ind. Originarse, proceder, provir. 10. Tr. ind. Emanar. 11. Intr. Chegar (a ocasiao, o tempo). 12. Tr. ind. e intr. Ocorrer. 13. Tr. ind. e intr. Acudir, ocorrer a imaginacao, a memoria, ao pensamento. 14. V. de lig. Conservarse, manterse. 15. Empregase como auxiliar do gerondio de qualquer verbo para formar expressoes incoativas: Ja vem descendo as escadas. 16. Seguido do infinito pessoal, tem certo carater de verbo auxiliar, com a ideia de apresentarse com certo fim: O criado veio informalo do que acontecera. Conj.: Pres. ind.: venho, vens, vem, vimos, vindes, vem; imperf.: vinha, vinhas etc.; perf.: vim, vieste, veio, viemos, viestes, vieram; m.q.perf.: viera, vieras etc.; fut. do pres.: virei, viras, vira, viremos, vireis, virao; fut. do pret.: viria, virias etc.; imper.: vem, vinde; pres. subj.: venha, venhas etc.; imperf.: viesse, viesses etc.; fut.: vi
+virvir@ se (para a pessoa que fala); ou transportarse para ca. 6. Intr. Acudir. 7. Intr. Andar, caminhar. 8. Tr. ind. Descender. 9. Tr. ind. Originarse, proceder, provir. 10. Tr. ind. Emanar. 11. Intr. Chegar (a ocasiao, o tempo). 12. Tr. ind. e intr. Ocorrer. 13. Tr. ind. e intr. Acudir, ocorrer a imaginacao, a memoria, ao pensamento. 14. V. de lig. Conservarse, manterse. 15. Empregase como auxiliar do gerondio de qualquer verbo para formar expressoes incoativas: Ja vem descendo as escadas. 16. Seguido do infinito pessoal, tem certo carater de verbo auxiliar, com a ideia de apresentarse com certo fim: O criado veio informalo do que acontecera. Conj.: Pres. ind.: venho, vens, vem, vimos, vindes, vem; imperf.: vinha, vinhas etc.; perf.: vim, vieste, veio, viemos, viestes, vieram; m.q.perf.: viera, vieras etc.; fut. do pres.: virei, viras, vira, viremos, vireis, virao; fut. do pret.: viria, virias etc.; imper.: vem, vinde; pres. subj.: venha, venhas etc.; imperf.: viesse, viesses etc.; fut.: vi
 viraer, vieres etc.@ s. f. Tira de couro que no calcado se cose ou prega entre as solas e junto as bordas destas. S. m. 1. Mosica folclorica portuguesa, de origem africana. 2. Danca do vira.
 virabosta@ s. m. 1. Ornit. Chupim. 2. Entom. Besouro escarabeideo que costuma confeccionar uma bola de esterco e colocar no seu interior um ovo; depois, com as pernas traseiras, empurra essa pequena esfera para um esconderijo qualquer. Pl.: virabostas.
 virabrequim@ s. m. Mec. Peca do motor de explosao, que permite o movimento alternado dos embolos.
@@ -36021,7 +36021,7 @@ vociferar@ v. 1. Tr. dir. Proferir em altas vozes; bradar, clamar. 2. Intr. Fala
 vocoroca@ s. f. Bocoroca.
 vodca@ s. f. Aguardente russa, de cereais.
 vodu@ s. m. Culto de origem africana, praticado nas Antilhas, que tem analogias com a nossa macumba.
-voejar@ v. Intr. Esvoacar. Normalmente so se emprega nas 3ï™≥ pessoas.
+voejar@ v. Intr. Esvoacar. Normalmente so se emprega nas 3i™≥ pessoas.
 voejo@ (e), s. m. 1. Acao de voejar. 2. Po que se levanta da farinha, quando agitada.
 voga@ s. f. 1. Acao de vogar. 2. Movimento dos remos. 3. Divulgacao, fama. 4. Uso atual, moda. 5. Popularidade, reputacao. S. m. O oltimo remador de um bote, o que vai junto a popa e e o que marca o ritmo da remada.
 vogal@ adj. m. e f. 1. Dizse do som produzido por expiracao do ar ao passar livremente pela cavidade bucal. 2. Dizse da letra que representa esse som. S. f. 1. Letra vogal. 2. Som vogal. S. m. e f. 1. Pessoa que tem voto numa assembleia. 2. Membro de uma assembleia ou tribunal deliberativo, com direito de voto.
@@ -36037,7 +36037,7 @@ volei@ s. m. Voleibol.
 voleibol@ s. m. Esporte disputado entre duas equipes de seis jogadores, que lancam uns contra outros, por cima de uma rede, uma bola leve, sem deixala tocar no chao; volei.
 volicao@ s. f. Filos. Ato da vontade, na linguagem filosofica.
 volitivo@ adj. Relativo a volicao ou a vontade.
-volt@ s. m. Fis. Unidade de forca eletromotriz e de diferenca de potencial, ou tensao, em eletricidade: equivale a um potencial eletrico existente entre as extremidades de um condutor de resistencia igual a 1 ohm internacional, percorrido por uma corrente de intensidade invariavel, igual a 1 ampËre internacional.
+volt@ s. m. Fis. Unidade de forca eletromotriz e de diferenca de potencial, ou tensao, em eletricidade: equivale a um potencial eletrico existente entre as extremidades de um condutor de resistencia igual a 1 ohm internacional, percorrido por uma corrente de intensidade invariavel, igual a 1 ampere internacional.
 volta@ s. f. 1. Ato ou efeito de voltar(se). 2. Regresso, retorno. 3. Movimento em torno; giro, circuito. 4. Extensao do contorno; circunferencia. 5. Pequeno passeio; giro. 6. O que se da para igualar uma troca. 7. Resposta, replica; troco. 8. Mudanca de opiniao; reviravolta. 9. Sinuosidade. 10. Cada uma das curvas de uma espiral. 11. Curva numa estrada ou rua. 12. Meandro dos rios. 13. Especie de colar, usado pelas mulheres. 14. Turvacao de vinho. 15. Laco, lacada.
 voltagem@ s. f. Fis. 1. Conjunto dos volts que funcionam num aparelho eletrico. 2. Diferenca de potencial, expressa em volts; tensao.
 voltaico@ adj. Eletr. Dizse da corrente produzida por uma pilha de Volta ou, de modo geral, por uma pilha qualquer.
@@ -36152,7 +36152,7 @@ wistaria@ s. f. Bot. Genero de trepadeiras lenhosas, na maioria asiaticas, com v
 wolffia@ s. f. Bot. Genero largamente distribuido, que compreende plantas aquaticas. No Brasil e representado pelas lentilhasd'agua.
 wronskiano@ adj. Relativo a Jozef Maria Wronski (17781853), matematico polones.
 wurtzita@ s. f. Miner. Mineral hexagonal, sulfereto de zinco; assim denominado em homenagem ao quimico frances Charles Adolphe Wurtz (18171884).
-x@ (xis), s. m. Vigesima segunda letra do alfabeto portugues. Usase com cinco valores, alem dos casos em que pode ser mudo, como em excerto, exceto etc. Tem assim o som de: 1ï∫) ch, no comeco ou no meio de numerosas palavras: xerife, ameixa, peixe etc. 2ï∫) cs, no interior e no fim de diversas palavras: anexo, conexo, latex etc. 3ï∫) z, quando se trata do prefixo exo: exodo, exotermico, exosmose etc.; ou ex seguido de vogal: exame, exito etc. 4ï∫) ss: em aproximar, maximo, sintaxe etc. 5ï∫) s, no final de silaba: sexto, textual, contexto, fenix etc. Num. 1. Numa serie indicada pelas letras do alfabeto, designa o nomero 22. 2. Na numeracao romana, em carater maiosculo, vale dez.
+x@ (xis), s. m. Vigesima segunda letra do alfabeto portugues. Usase com cinco valores, alem dos casos em que pode ser mudo, como em excerto, exceto etc. Tem assim o som de: 1i∫) ch, no comeco ou no meio de numerosas palavras: xerife, ameixa, peixe etc. 2i∫) cs, no interior e no fim de diversas palavras: anexo, conexo, latex etc. 3i∫) z, quando se trata do prefixo exo: exodo, exotermico, exosmose etc.; ou ex seguido de vogal: exame, exito etc. 4i∫) ss: em aproximar, maximo, sintaxe etc. 5i∫) s, no final de silaba: sexto, textual, contexto, fenix etc. Num. 1. Numa serie indicada pelas letras do alfabeto, designa o nomero 22. 2. Na numeracao romana, em carater maiosculo, vale dez.
 xa@ s. m. 1. Soberano, na lingua persa. 2. Titulo do antigo soberano do Ira.
 xacoco@ (o), adj. e s. m. 1. Enxacoco. 2. Dizse de, ou pessoa desenxabida.
 xadrez@ (e), s. m. 1. Jogo sobre um tabuleiro de 64 casas, em que se fazem mover 2 series de 16 pecas, de cor diferente, e de valor diverso. 2. Tabuleiro desse jogo. 3. Tecido, com as cores dispostas em quadradinhos. 4. Mosaico. 5. Naut. Engradamento de madeira que serve de piso, a bordo. 6. Pop. Prisao, cadeia.

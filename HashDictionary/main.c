@@ -10,6 +10,7 @@
 int main()
 {
     char * buffer = (char *) malloc(sizeof(char) * 4);
+    char * word;
     buffer[0] = 's';
     buffer[1] = 'u';
     buffer[2] = 'r';

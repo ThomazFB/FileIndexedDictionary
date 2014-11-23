@@ -9,6 +9,7 @@
 #ifndef HashDictionary_wordFinder_h
 #define HashDictionary_wordFinder_h
 
+#include "file.h"
 #include <stdio.h>
 #include <stdlib.h>
 

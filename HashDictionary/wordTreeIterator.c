@@ -27,10 +27,11 @@ void doJump(FILE * indexedDictionary)
 
 void jumpStructAmount(int amount, FILE * indexedDictionary)
 {
+    WordIndex aux;
     setFileRegisterToStartPoint(indexedDictionary);
     for(int i = 0; i < amount; i++)
     {
-        readNode(indexedDictionary);
+        doJump(indexedDictionary);
     }
 }
 
@@ -48,15 +49,16 @@ WordIndex readNode(FILE * indexedDictionary)
         fread(&auxiliarChild.fileReference, sizeof(int), 1, indexedDictionary);
         auxiliarNode.childs[i] = auxiliarChild;
     }
-    printf("%c",auxiliarNode.letter);
     return auxiliarNode;
 }
 
 void getVerbates(FILE * dictionary, int verbatePosition, char verbatesToLoad[10][1300])
 {
+    char * word;
     for(int i = 0; i < 10; i++)
     {
-        strcpy(verbatesToLoad[i], findWordByPosition(dictionary, verbatePosition));
+        word = findWordByPosition(dictionary, verbatePosition);
+        puts(word);
         verbatePosition++;
     }
 }
@@ -80,13 +82,13 @@ int getWordPosition(char * buffer, int layer, FILE * indexedDictionary)
     setFileRegisterToStartPoint(indexedDictionary);
     for(int i = 0; i < layer; i++)
     {
-        node =  readNode(indexedDictionary);
+        node = readNode(indexedDictionary);
         nextPosition = findChild(buffer[i], node);
         if(nextPosition == -1)
         {
             return -1;
         }
-        jumpStructAmount(nextPosition - 1, indexedDictionary);
+        jumpStructAmount(nextPosition, indexedDictionary);
     }
     node = readNode(indexedDictionary);
     return node.verbatePosition;
