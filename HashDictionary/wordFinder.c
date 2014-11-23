@@ -32,6 +32,7 @@ char * removeWordFromLine(char * wordLine)
 char * findWordByPosition(FILE * dictionary, int wordPosition)
 {
     int cont = 0;
+    setFileRegisterToStartPoint(dictionary);
     char * line = (char *) malloc(sizeof(char) * 1300);
     while ((!feof(dictionary)) && cont <= wordPosition)
     {
@@ -39,5 +40,5 @@ char * findWordByPosition(FILE * dictionary, int wordPosition)
         cont++;
     }
     
-    return removeWordFromLine(line);
+    return line;
 }

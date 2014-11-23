@@ -11,9 +11,16 @@
 
 #include "wordTreeConstruction.h"
 #include "file.h"
+#include "list.h"
 #include "typeDefinition.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+void saveNode(WordIndex * node, FILE * indexedDictionary);
+
+void preOrderTranslation(WordIndex * node, FILE * indexedDictionary, listNode ** list);
+
+void saveListInFile(listNode * list, FILE * indexedDictionary);
 
 void startTranslation(Dictionary * dictionary, FILE * indexedDictionary);
 

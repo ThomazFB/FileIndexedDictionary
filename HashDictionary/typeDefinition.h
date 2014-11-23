@@ -25,6 +25,7 @@ typedef struct childInfo
 typedef struct wordIndex
 {
     char letter;
+    int nodePosition;
     int verbatePosition;
     int numberOfChilds;
     ChildInfo childs[26];

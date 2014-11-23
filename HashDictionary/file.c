@@ -25,3 +25,12 @@ void setFileRegisterToStartPoint(FILE * dictionary)
 {
     fseek(dictionary, 0, SEEK_SET);
 }
+
+void setFileRegisterToEndPoint(FILE * dictionary)
+{
+    fseek(dictionary, 0, SEEK_END);
+    /*while(!feof(dictionary))
+    {
+        doJump(dictionary);
+    }*/
+}

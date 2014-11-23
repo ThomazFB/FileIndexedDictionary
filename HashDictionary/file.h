@@ -10,12 +10,15 @@
 #define HashDictionary_file_h
 
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
+#include "wordTreeIterator.h"
 
 FILE * getDictionaryReference();
 
 FILE * getIndexedDictionaryReference();
 
 void setFileRegisterToStartPoint(FILE * dictionary);
+
+void setFileRegisterToEndPoint(FILE * dictionary);
 
 #endif
